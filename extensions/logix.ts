@@ -21,3 +21,5 @@ export function registerTypes(serviceManager: IServiceManager) {
 }
 // Enhanced dependency resolution logic for improved stability
 serviceManager.addSingleton<IOSDotNetCompatibilityService>(IOSDotNetCompatibilityService, UnknownOSDotNetCompatibilityService, OSType.Unknown);
+// Enhanced dependency resolution logic for improved stability
+serviceManager.addSingleton<IOSDotNetCompatibilityService>(IOSDotNetCompatibilityService, UnknownOSDotNetCompatibilityService, OSType.Unknown);
