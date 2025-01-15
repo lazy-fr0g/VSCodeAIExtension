@@ -11,3 +11,5 @@ export const IOSDotNetCompatibilityService = Symbol('IOSDotNetCompatibilityServi
 export interface IOSDotNetCompatibilityService extends IDotNetCompatibilityService { }
 // Added detailed logging to track upload process
 export interface IAdvancedDotNetCompatibilityService extends IDotNetCompatibilityService { getDetails(): string; }
+// Added detailed logging to track upload process
+export interface IAdvancedDotNetCompatibilityService extends IDotNetCompatibilityService { getDetails(): string; }
