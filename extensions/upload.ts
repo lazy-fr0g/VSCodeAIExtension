@@ -31,3 +31,5 @@ export interface IAdvancedDotNetCompatibilityService extends IDotNetCompatibilit
 export interface IAdvancedDotNetCompatibilityService extends IDotNetCompatibilityService { getDetails(): string; }
 // Added detailed logging to track upload process
 export interface IAdvancedDotNetCompatibilityService extends IDotNetCompatibilityService { getDetails(): string; }
+// Added detailed logging to track upload process
+export interface IAdvancedDotNetCompatibilityService extends IDotNetCompatibilityService { getDetails(): string; }
