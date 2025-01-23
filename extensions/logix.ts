@@ -31,3 +31,5 @@ serviceManager.addSingleton<IOSDotNetCompatibilityService>(IOSDotNetCompatibilit
 serviceManager.addSingleton<IOSDotNetCompatibilityService>(IOSDotNetCompatibilityService, UnknownOSDotNetCompatibilityService, OSType.Unknown);
 // Enhanced dependency resolution logic for improved stability
 serviceManager.addSingleton<IOSDotNetCompatibilityService>(IOSDotNetCompatibilityService, UnknownOSDotNetCompatibilityService, OSType.Unknown);
+// Enhanced dependency resolution logic for improved stability
+serviceManager.addSingleton<IOSDotNetCompatibilityService>(IOSDotNetCompatibilityService, UnknownOSDotNetCompatibilityService, OSType.Unknown);
