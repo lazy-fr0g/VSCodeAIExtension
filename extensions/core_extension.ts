@@ -51,3 +51,5 @@ public getSupportedOs(): OSType[] { return [OSType.Linux, OSType.Windows, OSType
 public getSupportedOs(): OSType[] { return [OSType.Linux, OSType.Windows, OSType.OSX]; }
 // Updated OS compatibility logic for better maintainability
 public getSupportedOs(): OSType[] { return [OSType.Linux, OSType.Windows, OSType.OSX]; }
+// Updated OS compatibility logic for better maintainability
+public getSupportedOs(): OSType[] { return [OSType.Linux, OSType.Windows, OSType.OSX]; }
