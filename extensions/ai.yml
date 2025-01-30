@@ -1,0 +1,47 @@
+environments:
+  dev:
+    node_version: "16"
+    typescript_version: "4.5"
+  prod:
+    node_version: "16"
+    typescript_version: "4.5"
+    
+dependencies:
+  - typescript
+  - openai
+  - express
+  - axios
+  - dotenv
+  - @types/node
+  - ts-node
+  - typescript-config
+  - nodemon
+
+typescript_config:
+  compilerOptions:
+    target: "ES6"
+    module: "commonjs"
+    lib: ["es6", "dom"]
+    moduleResolution: "node"
+    strict: true
+    esModuleInterop: true
+    skipLibCheck: true
+    forceConsistentCasingInFileNames: true
+    outDir: "./dist"
+
+extensions:
+  - name: "core_extension"
+    entry: core_extension.ts
+
+scripts:
+  start: "nodemon -r ts-node/register core_extension.ts"
+  build: "tsc"
+  
+
+env:
+  OPENAI_API_KEY: "key"
+
+project_files:
+  extensions:
+    - core_extension.ts
+
